@@ -6,3 +6,6 @@ If numpy module is not installed on your system, please install it using
 ```
 pip3 install numpy
 ```
+# How to use
+
+![image of how to use](https://raw.githubusercontent.com/ruween/gpa-calculator/master/how-to-use.png)
