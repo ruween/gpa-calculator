@@ -12,8 +12,8 @@ weights = []
 grades = []
 
 for i in range(no_of_modules):
-    grade_string = input("Enter your GRADE for module " + str(i) + " : ")
-    weight = input("Enter the WEIGHT of the module " + str(i) + " : ")
+    grade_string = input("Enter your GRADE for module " + str(i+1) + " : ")
+    weight = input("Enter the WEIGHT of the module " + str(i+1) + " : ")
     weights.append(float(weight))
     if grade_string in grading_scale:
         grade = grading_scale[grade_string]
